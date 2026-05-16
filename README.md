@@ -56,7 +56,7 @@ _____
   **Dashboard 1** – Rider Behavior Overview
   This dashboard compares overall differences between casual riders and annual members, including total ride volume, ride duration, and monthly riding patterns.
 
-  ![Dashboard 1]
+  ![Dashboard 1](https://github.com/AQuintanar1/cyclistic-analysis/blob/main/tableau/Cyclistic%20Rider%20Behavior%20Overview.png)
   
   **Dashboard 2** – Weekly Usage Patterns
   This dashboard focuses on weekly riding behavior by comparing ride distribution and average ride duration across each day of the week for both rider groups.
