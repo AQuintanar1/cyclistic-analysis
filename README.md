@@ -56,17 +56,17 @@ _____
   **Dashboard 1** – Rider Behavior Overview
   This dashboard compares overall differences between casual riders and annual members, including total ride volume, ride duration, and monthly riding patterns.
 
-  ![Dashboard 1](tableau/Cyclistic Rider Behavior Overview.png)
+  ![Dashboard 1](cyclistic-analysis/tableau/Cyclistic Rider Behavior Overview.png)
   
   **Dashboard 2** – Weekly Usage Patterns
   This dashboard focuses on weekly riding behavior by comparing ride distribution and average ride duration across each day of the week for both rider groups.
 
-  ![Dashboard 2](tableau/Day info dash.png)
+  ![Dashboard 2](cyclistic-analysis/tableau/Day info dash.png)
 
   **Dashboard 3** – Bike Type & Ride Location
   This dashboard explores differences in bike type usage, ride duration by bike type, and approximate ride start locations across Chicago.
 
-  ![Dashboard 3](tableau/Conditions Dash.png)
+  ![Dashboard 3](cyclistic-analysis/tableau/Conditions Dash.png)
   
 _____ 
 
