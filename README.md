@@ -18,6 +18,8 @@ Data Cleaning and Manipulation
   During initial exploration, I noticed missing station data and less accurate coordinate data, which led to further investigation. I found that electric bikes did not always include exact docking station information because they are not required to be returned to fixed docking locations, which influenced the accuracy of coordinates and how that was interpreted during analysis.
   Additional quality checks were performed throughout the project. Median ride duration was compared against average duration to evaluate the impact of outliers.
 
+
+
 Analysis Summary
   
 Overall Rider Differences
@@ -45,6 +47,8 @@ Bike Type Usage
 Differences were also observed across bike types. Electric bikes were associated with shorter average ride durations for both rider groups compared to classic bikes.
 During initial exploration, inconsistencies in station and coordinate data led to further investigation into operational differences between bike types. Electric bikes did not always contain exact docking station information because they are not required to be returned to fixed docking locations, which influenced how location data was interpreted during analysis.
 
+
+
 Visualizations
 
   Dashboard 1 – Rider Behavior Overview
@@ -62,15 +66,19 @@ Visualizations
   This dashboard explores differences in bike type usage, ride duration by bike type, and approximate ride start locations across Chicago.
 
 
+
 Recommendations
 
-1. Highlight membership savings after rides 
+1. Highlight membership savings after rides
+   
 Casual riders could be shown estimated membership savings immediately after completing a ride. Annual members receive longer included ride times and lower electric bike rates, meaning riders who frequently take longer rides may benefit financially from converting to a membership plan.
 
-2. Increase marketing efforts during high casual-ridership periods
+2. Increase marketing efforts during high casual-ridership period
+   
 Casual ridership showed stronger increases during weekends and summer months, suggesting more leisure-oriented usage patterns. Cyclistic could consider increasing marketing campaigns, promotions, or membership offers during these periods to target riders when casual usage is highest.
 The data also showed more consistent riding behavior among annual members throughout the week and year, which may indicate more commuting-oriented usage. Additional marketing near public transit hubs or commuter-heavy areas could help position bike sharing as part of a regular commuting routine.
 
 3. Use electric bike engagement to encourage app-based membership conversion
+   
 Unlike classic bikes, electric bikes require riders to use the Cyclistic app to begin a ride. This creates additional opportunities for direct engagement with casual riders through membership prompts, ride summaries, and personalized offers.
 Electric bikes were also associated with shorter ride durations for both casual riders and members, which may reflect convenience-oriented usage patterns. Cyclistic could consider promoting electric bikes as an accessible entry point for new riders while using app engagement to increase awareness of membership benefits.
