@@ -7,13 +7,13 @@ Business Task
 Data Sources
   
   The Cyclistic dataset consists of 12 monthly trip data CSV files provided through the Google Data Analytics Capstone case study. The data originates from Divvy, a real Chicago based bike share company owned by Lyft, and contains ride information including rider type, ride timestamps, station locations, and bike type.
-  The combined dataset included over 5 million unique ride records spanning April 2025 through March 2026. Due to file size limitations, the data was uploaded to Google Cloud Storage and processed in BigQuery for cleaning and analysis.
+  The combined dataset included over 5 million unique ride records spanning April 2025 through March 2026. Due to file size limitations, the data was uploaded to Google Cloud Storage and processed in BigQuery to form one useable dataset.
   A limitation of the dataset is that it does not have specific rider information, meaning individual rider behavior and potential conversion patterns could not be directly tracked.
-  Cyclistic is a fictional company created for the case study,therefore for the purpose of this case study Divvy’s publicly available membership structure, pricing model, and app usage were used as a reference point when developing recommendations and interpreting rider behavior patterns.
+  Cyclistic is a fictional company created for the case study; therefore, for the purpose of this case study, Divvy’s publicly available membership structure, pricing model, and app usage were used as a reference point when developing recommendations and interpreting rider behavior patterns.
   
 Data Cleaning and Manipulation
  
-  The raw trip data was provided as 12 separate monthly CSV files covering April 2025 through March 2026. Due to file size limitations, the datasets were uploaded to Google Cloud Storage and processed in BigQuery, where the monthly tables were combined into a single working dataset for analysis.
+  The raw trip data was provided as 12 separate monthly CSV files covering April 2025 through March 2026. Due to file size limitations, the datasets were uploaded to Google Cloud Storage and processed in BigQuery, where the monthly tables were combined into a single working dataset for cleaning.
   Several cleaning and preparation steps were performed before analysis. Duplicate records and invalid header rows were removed, and new fields were created for ride duration and day of week. Rides with negative durations, durations rounded to zero minutes, or extreme duration values were filtered out to improve data reliability. A small number of rides outside the intended April 2025–March 2026 range were identified and removed after grouping by the starting month that introduced an unintended March 2025 category.
   During initial exploration, I noticed missing station data and less accurate coordinate data, which led to further investigation. I found that electric bikes did not always include exact docking station information because they are not required to be returned to fixed docking locations, which influenced the accuracy of coordinates and how that was interpreted during analysis.
   Additional quality checks were performed throughout the project. Median ride duration was compared against average duration to evaluate the impact of outliers.
@@ -30,7 +30,7 @@ Seasonal Trends
 Casual ridership showed stronger seasonal variation than annual members, with ride volume increasing significantly during summer months. Member ridership remained more consistent throughout the year.
 These patterns suggest that casual riders may use the service more for leisure-oriented activities, while annual members may rely on bike sharing more consistently for routine transportation or commuting.
 
- Weekday vs Weekend Behavior
+Weekday vs Weekend Behavior
  
 Casual riders showed a higher proportion of rides during weekends compared to annual members, while members maintained a more consistent distribution across weekdays.
 This difference further supports the possibility that casual riders are more likely to use the service recreationally, while annual members may incorporate bike sharing more regularly into commuting or day-to-day transportation.
@@ -64,7 +64,7 @@ Visualizations
 
 Recommendations
 
-1. Highlight membership savings after rides
+1. Highlight membership savings after rides 
 Casual riders could be shown estimated membership savings immediately after completing a ride. Annual members receive longer included ride times and lower electric bike rates, meaning riders who frequently take longer rides may benefit financially from converting to a membership plan.
 
 2. Increase marketing efforts during high casual-ridership periods
