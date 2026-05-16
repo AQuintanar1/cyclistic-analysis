@@ -51,6 +51,24 @@ During initial exploration, inconsistencies in station and coordinate data led t
 
 _____
 
+**Recommendations**
+
+**1. Highlight membership savings after rides**
+   
+Casual riders could be shown estimated membership savings immediately after completing a ride. Annual members receive longer included ride times and lower electric bike rates, meaning riders who frequently take longer rides may benefit financially from converting to a membership plan.
+
+**2. Increase marketing efforts during high casual-ridership period**
+   
+Casual ridership showed stronger increases during weekends and summer months, suggesting more leisure-oriented usage patterns. Cyclistic could consider increasing marketing campaigns, promotions, or membership offers during these periods to target riders when casual usage is highest.
+The data also showed more consistent riding behavior among annual members throughout the week and year, which may indicate more commuting-oriented usage. Additional marketing near public transit hubs or commuter-heavy areas could help position bike sharing as part of a regular commuting routine.
+
+**3. Use electric bike engagement to encourage app-based membership conversion**
+   
+Unlike classic bikes, electric bikes require riders to use the Cyclistic app to begin a ride. This creates additional opportunities for direct engagement with casual riders through membership prompts, ride summaries, and personalized offers.
+Electric bikes were also associated with shorter ride durations for both casual riders and members, which may reflect convenience-oriented usage patterns. Cyclistic could consider promoting electric bikes as an accessible entry point for new riders while using app engagement to increase awareness of membership benefits.
+
+_____
+
 **Visualizations**
 
   **Dashboard 1** – Rider Behavior Overview
@@ -68,20 +86,5 @@ _____
 
   ![Dashboard 3](https://github.com/AQuintanar1/cyclistic-analysis/blob/main/tableau/Conditions%20Dash.png)
   
-_____ 
 
-**Recommendations**
 
-**1. Highlight membership savings after rides**
-   
-Casual riders could be shown estimated membership savings immediately after completing a ride. Annual members receive longer included ride times and lower electric bike rates, meaning riders who frequently take longer rides may benefit financially from converting to a membership plan.
-
-**2. Increase marketing efforts during high casual-ridership period**
-   
-Casual ridership showed stronger increases during weekends and summer months, suggesting more leisure-oriented usage patterns. Cyclistic could consider increasing marketing campaigns, promotions, or membership offers during these periods to target riders when casual usage is highest.
-The data also showed more consistent riding behavior among annual members throughout the week and year, which may indicate more commuting-oriented usage. Additional marketing near public transit hubs or commuter-heavy areas could help position bike sharing as part of a regular commuting routine.
-
-**3. Use electric bike engagement to encourage app-based membership conversion**
-   
-Unlike classic bikes, electric bikes require riders to use the Cyclistic app to begin a ride. This creates additional opportunities for direct engagement with casual riders through membership prompts, ride summaries, and personalized offers.
-Electric bikes were also associated with shorter ride durations for both casual riders and members, which may reflect convenience-oriented usage patterns. Cyclistic could consider promoting electric bikes as an accessible entry point for new riders while using app engagement to increase awareness of membership benefits.
